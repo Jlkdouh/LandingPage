@@ -1,0 +1,122 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    
+    font-family: Roboto, sans-serif;
+    
+    flex-direction: column;
+}
+
+header{
+    background-color: burlywood;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.information{
+    
+    height: 450px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: cornsilk;
+}
+
+.inspiring{
+    display: flex;
+    
+    height: 50vh;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(235, 219, 154);
+}
+
+footer{
+    border: rgb(2, 11, 15) 2px solid;
+    height: 30vh;
+    display: flex;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.food{
+    display: flex;
+    flex-direction: column;
+    
+    width: 20%;
+    margin-inline: 20px;
+}
+
+img {
+    border: blue 4px solid;
+    height: 20vh;
+    border-radius: 20px;
+}
+
+.info {
+    width: fit-content;
+    background-color: blue;
+    color: aliceblue;
+    font-size: medium;
+    border: white 2px solid;
+    border-radius: 10px;
+}
+
+.description_photo{
+    display: flex;
+    height: 30vh;
+    line-height: 20px;
+    justify-content: space-around;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    border: blue 4px solid;
+    align-items: center;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+span{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+h3 {
+    font-family: 'Pacifico', cursive;
+}
+box{
+    
+    position: relative;
+    left: 51%;
+}
+
+.call{
+    display: flex;
+    
+    height: 20vh;
+    font-family: 'Pacifico', cursive;
+    flex-direction: row;
+    background-color: lightgrey;
+    justify-content: space-around;
+}
+.sign {
+    background-color: blue;
+    color: aliceblue;
+    font-size: medium;
+    height: 30px;
+    align-self: center;
+    border: white 2px solid;
+    border-radius: 10px;
+}
